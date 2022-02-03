@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./forms.css">
+</head>
+
+<body>
+    <form action="">
+        <div class="form">
+            <p class="title"><label>Name</label>
+            </p>
+            <input class="inputs" type="text" name="username" value="Your Name" maxlength="15" required>
+
+            <p class="title"><label>Email</label>
+            </p>
+            <input class="inputs" type="email" name="email" required value="email">
+
+            <p class="title"><label>Password</label>
+            </p>
+            <input class="inputs" type="password" name="password" placeholder="Password" value="Password" minlength="6" maxlength="10" required>
+
+            <p class="title"><label>Mobile</label>
+            </p>
+            <input class="inputs" type="number" name="number" value="Number" minlength="10" maxlength="12" required>
+
+            <p class="title"><label>Attachments</label>
+            </p>
+            <input type="file" name="Files" required value="files">
+
+            <p class="btn">
+                <input class="btn1" type="submit" name="submit" value="Submit">
+                <input class="btn1" type="reset" name="clear" value="Clear All">
+            </p>
+        </div>
+    </form>
+</body>
+
+</html>

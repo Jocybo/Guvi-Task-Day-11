@@ -1,0 +1,20 @@
+table,
+tr,
+th,
+td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 17px;
+    text-align: center;
+    width: 650px;
+}
+
+h2 {
+    justify-content: center;
+    display: flex;
+}
+
+.tab {
+    display: flex;
+    justify-content: center;
+}

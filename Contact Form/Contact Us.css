@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: rgba(143, 145, 143, 0.678);
+}
+
+.form {
+    border: 1.5px solid black;
+    border-radius: 20px;
+    padding: 2em;
+    margin: 3em;
+    width: 400px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    background-image: linear-gradient(to left top, #a409a0, #a933a9, #ae4cb2, #b360ba, #b873c2, #aa82d2, #9a90df, #8a9de7, #4eaaec, #00b4e3, #00bbcc, #0fbfad);
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5em;
+    border-radius: 5px;
+    border: 0.5px solid black;
+}
+
+.title {
+    display: flex;
+}
+
+.btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 0.4em;
+}
+
+.clr {
+    display: flex;
+    flex-direction: row;
+}
+
+.btn1 {
+    width: 100px;
+    padding: 1em;
+    color: rgb(131, 13, 121);
+    border-radius: 10px;
+    border: 0.5px solid black;
+    background-color: whitesmoke
+}
+
+.btn1:hover {
+    color: whitesmoke;
+    background-color: rgb(131, 13, 121);
+    border: 1px solid whitesmoke;
+}
+
+#contact {
+    width: auto;
+    border-radius: 5px;
+    padding-left: 3px;
+}
